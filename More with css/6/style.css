@@ -1,0 +1,23 @@
+body{
+    margin: auto;
+    padding: 0%;
+}
+header{
+    text-align: center;
+    padding: 20px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%; 
+    height: 80%;
+}
+p{
+    text-align: justify;
+    font-display: auto;
+    margin: 20px auto;
+}
+img{
+    border-radius: 10px;
+}

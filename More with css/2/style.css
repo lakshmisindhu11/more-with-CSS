@@ -1,0 +1,16 @@
+.content-div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 20px auto;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #dbe042;
+}
+
+.content-div img {
+    max-width: 400px;
+    border-radius: 15px;
+}

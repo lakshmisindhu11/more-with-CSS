@@ -1,0 +1,48 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fcfbfb;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(5, 3, 3);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    justify-content: space-around;
+    font-size: 40px;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  nav li:nth-child(1) a {
+    border: 10px solid red;
+    border-radius: 20px;
+  }
+  
+  nav li:nth-child(2) a {
+    border: 10px groove blue;
+    border-radius: 150px;
+  }
+  
+  nav li:nth-child(3) a {
+    border: 10px dashed rgb(86, 199, 86);
+    border-radius: 200%;
+  }
+  
+  nav li:nth-child(4) a {
+    border: 10px outset orange;
+    border-radius: 500%;
+  }
+
+  nav li:nth-child(5) a {
+    border: 10px ridge rgb(174, 198, 22);
+  }
